@@ -1,2 +1,9 @@
 Primeira aula git
 linha um: testando comandos
+comando "cd" (mais o nome da pasta) para entrar na pasta do arquivo
+comando "git status" para avaliar a situação dos arquivos
+comando "type" para ver o conteudo da pasta
+comando "git add" (mais nome do arquivo) para o git controlar
+comando "git commit" para salvar o progresso
+comando "git push" para enviar para o github
+comando "git diff" para ver as alterações
