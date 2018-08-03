@@ -7,3 +7,5 @@ comando "git add" (mais nome do arquivo) para o git controlar
 comando "git commit" para salvar o progresso
 comando "git push" para enviar para o github
 comando "git diff" para ver as alterações
+comando "cd .." voltar para pasta anterior
+comando "cd/" volta para pasta inicial
