@@ -9,3 +9,5 @@ comando "git push" para enviar para o github
 comando "git diff" para ver as alterações
 comando "cd .." voltar para pasta anterior
 comando "cd/" volta para pasta inicial
+comando "mkdir" criar uma pasta
+comando "dir" para mostrar todos arquivos na pasta
