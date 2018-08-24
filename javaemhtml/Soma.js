@@ -1,3 +1,4 @@
+alert (Somadealgarismos);
 function Somadealgarismos() {
 	var a = 9;
 	var b = 120;
