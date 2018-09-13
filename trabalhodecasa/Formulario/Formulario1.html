@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 <script src="Calculus.js"></script>
+<title>Cadastro de Compra</title>
+<meta charset="UTF-8"/>
 </head>
 <body>
 <form method="post" id="fcontato" action="mailto:emailparaondevaioformulario@fds.com">
 
-<fieldset id="usuario"><legend>Reconhecimento do usuario</legend>
+<fieldset id="usuario"><legend>Identificação do usuario</legend>
 <p><label for="cnome">Nome:</label> <input type="text" name="tnome" id="cnome" size="30" maxlength="50" placeholder="Nome Completo"/></p>
 <p><label for="csenha">Senha:</label> <input type="password" name="tsenha" id="csenha" size="15" maxlength="10" placeholder="10 digitos"/></p>
 <p><label for="cconf">Confirme a senha:</label> <input type="password" name="tconf" id="cconf" size="15" maxlength="10" placeholder="10 digitos"/></p>
 <p><label for="cmail">E-mail:</label> <input type="email" name="tmail" id="cmail" size="60" maxlength="60" placeholder="E-mail"/></p>
 <fieldset id="sexo"><legend>Sexo</legend>
-      <input type="radio" name="tsexo" id="cma"/> <label for="cma">Masculino</label><br/>
+      <input type="radio" name="tsexo" id="cma" checked/> <label for="cma">Masculino</label><br/>
 	  <input type="radio" name="tsexo" id="cfe"/> <label for="cfe">Feminino</label><br/>
-	  <input type="radio" name="tsexo" id="cin"checked /> <label for="cin">Indiferente</label></fieldset>
+	  <input type="radio" name="tsexo" id="cin" /> <label for="cin">Indeciso</label></fieldset>
 <p><label for="cdata">Data de nascimento:</label><input type="data" name="tdata" id="cdata" size="10" maxlength="10"/></p>
 </fieldset>
 <fieldset id="endereço"><legend>Endereço do Usuario</legend>
@@ -52,7 +54,7 @@
 
 <p><label for="copni">Sobre o site:</label> <textarea name="topni" id="copni" cols="45" rows="5" placeholder="Deixe sua opnião aqui"></textarea></p>
 </fieldset>
-<fieldset id="desejos" oninput="Calculus()"><legend>Itens Disponiveis</legend>
+<fieldset id="desejos" onclick="Calculus()"><legend>Itens Disponiveis</legend>
 <p><input type="checkbox" name="tsmart" id="csmart"/><label for="csmart">Smartphone Samsung J7</label></p>
 <p><label for="ccor">Cor:</label> <input type="color" name="tcor" id="ccor"/>
 <p><label for="cquant">Quantidade:</label><input type="number" name="tquant" id="cquant" min="0" max="20" value="0"/></p>
