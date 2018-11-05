@@ -1,0 +1,87 @@
+#menusuperior {
+	cursor: pointer;
+	background-color: gray;
+}
+#menusuperior ul {
+	list-style:none;
+	border: none;
+	border-radius: 10px;
+	position: absolute;
+	top: -20px;
+	left: 1000px;
+	bottom: 500px;
+	z-index: 9999;
+
+}
+#menusuperior li {
+	display: inline-block;
+	background-color: #f66464;
+	padding: 5px;
+	margin: 2px;
+	transition: background-color 1s;
+	color: white;
+}
+#menusuperior li:hover{
+	background-color: #000000;
+}
+#menulateral{
+	display: none;
+}
+
+#menulateral ul{  
+	list-style-image: url('image/sharin.png'); 
+	font-size: 18px;
+	text-align: center;
+	margin: 1px 1px;
+	cursor: pointer;
+	float: right;
+	z-index: 99999;
+	border: none;
+	border-radius: 10px;
+	bottom: 300px;
+	position:fixed;
+	outline: none;
+}
+#menulateral li{
+	background-color: #f66464;
+	padding: 10px;
+	margin: 5px;
+	transition: background-color 1s;
+	color: white;
+	text-align: center;
+}
+#menulateral li:hover{
+	background-color: #000000;
+}
+#logo{
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	cursor: default;
+}
+#slime{
+	z-index: 999999;
+	float: left;
+	padding: 30px 0px 0px 230px;
+}
+h1{
+  background-color: #eff1f2;
+  height: 2500px;
+  display: block;
+  margin:200px;
+  padding: 35px 0px 0px 350px;
+}
+p{
+	display: block;
+	position: absolute;
+	left: 550px;
+	top: 280px;
+	text-indent: 30px;
+	font-family: serif;
+	height: 100%;
+	background-color: #eff1f2;
+}
+body{
+	background-image: url('image/fundoanime.png');
+	cursor: default;
+}
