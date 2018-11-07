@@ -6,3 +6,7 @@ window.onscroll = function() {scrollfunction()};
 				document.getElementById("menulateral").style.display = "none";
 			}
 		}
+
+function onGoogle(){
+	window.open("https://www.google.com/", "MyPage", "width=800, height=400");
+}

@@ -16,8 +16,8 @@
 #menusuperior li {
 	display: inline-block;
 	background-color: #f66464;
-	padding: 5px;
-	margin: 2px;
+	padding: 15px;
+	margin: -2px;
 	transition: background-color 1s;
 	color: white;
 }
@@ -49,6 +49,8 @@
 	transition: background-color 1s;
 	color: white;
 	text-align: center;
+	border: none;
+	border-radius: 10px;
 }
 #menulateral li:hover{
 	background-color: #000000;
@@ -81,7 +83,10 @@ p{
 	height: 100%;
 	background-color: #eff1f2;
 }
-body{
+#textoprin{
+	padding-bottom: 20%;
 	background-image: url('image/fundoanime.png');
 	cursor: default;
+	background-size: cover;
+	background-size: 1600px 2000px;
 }
